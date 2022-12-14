@@ -12,7 +12,6 @@ def main() :
 
     # sepal_length 와 sepal_width의 관계를 차트로 그리시오
     fig = plt.figure()
-
     plt.scatter(data = df , x = 'sepal_length',y='sepal_width')
     plt.title('Sepal Length vs Width')
     plt.xlabel('sepal length')
